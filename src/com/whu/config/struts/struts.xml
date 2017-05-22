@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE struts PUBLIC
+    "-//Apache Software Foundation//DTD Struts Configuration 2.0//EN"
+    "http://struts.apache.org/dtds/struts-2.0.dtd">
+<struts>
+	<constant name="struts.i18n.encoding" value="UTF-8" />
+ 	<constant name="struts.devMode" value="true" />
+ 	<package name="kchart" namespace="/" extends="struts-default">
+       <action name="*_*" class="com.whu.action.{1}Action" method="{2}">
+            <result name="home">
+            	/home.jsp
+            </result>
+            <result name="index">
+            	/index.jsp
+            </result>
+        </action>
+    </package>
+</struts>
