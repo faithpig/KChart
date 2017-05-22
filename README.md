@@ -4,3 +4,4 @@
 显示用的struts2，生成k线图用的java jfreechart绘图库。<br>
 相似度算法有三个：均值hash算法\levenshtein距离算法\某组员自己yy出来的算法（虽然和前两个算法精确度比弱了一些但好歹也是智慧的结晶啊！）<br>
 项目托管在阿里云上了,地址是 http://www.xcfish.cn/KChart/<br>
+因为是老师给的固定格式的数据，数据txt文件放在webroot里面了，并没有做用户自己上传数据的功能，对比相似度前请先点击导入数据来生成k线图。
